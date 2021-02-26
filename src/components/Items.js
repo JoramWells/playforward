@@ -4,7 +4,9 @@ import React from 'react'
 const useStyles = makeStyles((theme=>({
     root:{
         backgroundColor:"hsl(0, 0%, 95%)",
-        padding:theme.spacing(1)
+        padding:theme.spacing(1),
+        marginBottom:theme.spacing(5)
+        
     }
 })))
 
